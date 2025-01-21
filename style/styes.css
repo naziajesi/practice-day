@@ -17,8 +17,49 @@
     
 }
 .nav-items{
-    gap: 10px;
+    gap: 32px;
     width: 387px;
+   
+}
+.logo{
+    width: 62px;
+    height: 62px;
+    margin-top: 20px;
+    /* margin-right: 11px; */
+    gap: 11px;
+    margin-right: 270px;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+   font-family: Quicksand;
+   font-size: 1rem;
+   font-weight: 600;
+   border: none;
+   border-radius: 12px;
+
+   /* Orange */
+   background: rgb(254, 163, 1);
+   width: 197px;
+   height: 50px;
+   margin-right: 130px;
+}
+.school{
+    margin-top: 17px;
+    
+}
+.link1{
+    color: rgb(254, 163, 1);
+}
+.link2{
+    color: rgb(1, 172, 253);
+}
+.link3{
+
+  color:   rgb(5, 212, 223)
+}
+.link4{
+    color: rgb(93, 88, 239);
 }
     
 
@@ -29,6 +70,57 @@
 a{
     text-decoration: none;
 }
-/* .nav-btn{
-    
-} */
+    /* ------>hero section--------> */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.title{
+    margin-top: 120px ;
+    margin-bottom: 24px;
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+}
+.clr-text{
+    color: rgb(254, 163, 1);
+}
+.clr-text2{
+    color: rgb(1, 172, 253);
+}
+.description{
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(17, 17, 17);
+    margin-bottom: 24px;
+}
+.hero-btn{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+
+    width: 197px;
+    height: 50px;
+}
+
+
+
+    /* -----> curriculum------> */
+
+.title1{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+}
