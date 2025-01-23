@@ -7,6 +7,7 @@
     max-width: 1160px;
     margin: 0 auto;
     border: 1px solid tomato;
+    background-color:ghostwhite
 }
 .flex{
     display: flex;
@@ -25,7 +26,6 @@
     width: 62px;
     height: 62px;
     margin-top: 20px;
-    /* margin-right: 11px; */
     gap: 11px;
     margin-right: 270px;
 }
@@ -181,4 +181,175 @@ a{
     font-size: 15.09px;
     font-weight: 500;
     line-height: 28.3px;
+    margin-top: 25px;
+}
+.readmore-card1{
+    color: rgb(100, 200, 255);
+   font-family: Quicksand;
+   font-size: 15.09px;
+   font-weight: 700;
+   margin-top: 25px;
+}
+.readmore-card2{
+    color: rgb(240, 170, 0);
+   font-family: Quicksand;
+   font-size: 15.09px;
+   font-weight: 700;
+   margin-top: 25px;
+}
+.readmore-card3{
+    color: rgb(135, 0, 255);
+   font-family: Quicksand;
+   font-size: 15.09px;
+   font-weight: 700;
+   margin-top: 25px;
+}
+
+.btn{
+
+    border-radius: 30px;
+
+/* Orange */
+    background: rgb(254, 163, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}  
+
+
+
+    /* ------->our stories------> */
+
+.our-stories{
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    height: 880px;
+   background:  linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+   
+   
+}
+.stories-box{
+    
+       display: flex;
+       gap: 15px; 
+       justify-content: center;  
+       margin-bottom: 60px;  
+}
+.stories-box2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
+}
+.stories-box2 h5{
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 28.76px;
+    text-align: center;
+}
+.stories-box2>div{
+
+        background-color: white;
+}
+.stories-box1{
+    background-color: white;
+}
+
+.img1 h4{
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.35px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.img1 p{
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    margin-bottom: 30px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.btn-box{
+    border-radius: 12px;
+
+   /* Black */
+   background: rgb(17, 17, 17);
+   color: rgb(255, 255, 255);
+   font-family: Quicksand;
+   font-size: 20px;
+   font-weight: 700;
+   width: 180px;
+   height: 50px;
+   margin-bottom: 60px;
+
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.footer-logo{
+    width: 62px;
+    height: 62px;
+    margin-top: 110px;
+    margin-bottom: 33px;
+    gap: 11px;
+}
+
+.footer-logo-content, p{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 170px;
+}
+.education{
+    line-height: 39.51px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.list-item{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.footer{
+
+    justify-content: space-around;
+    background: rgb(1, 172, 253);
+}
+.nav{
+    margin-top: 110px;
+    
+}
+.nav, h4{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.icon{
+    margin-top: 110px;
+
+}
+.icon, h4{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
